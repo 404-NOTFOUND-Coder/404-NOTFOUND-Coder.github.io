@@ -4,8 +4,7 @@
 
 ## 在线访问
 
-- GitHub Pages: <https://404-notfound-coder.github.io/>
-- Sites: <https://peter-ai-workflows.jma83170.chatgpt.site/>
+- Sites Pages: <https://404-notfound-coder.github.io/>
 
 ## 本地运行
 
