@@ -225,6 +225,20 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
         <div className="footer-right">
           <p>模板用于整理与辅助思考，重要结论、引用和外部操作请人工复核。</p>
           <div className="footer-links">
+            <a
+              className="traffic-counter"
+              href="https://hits.sh/404-notfound-coder.github.io/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="查看网站今日和累计访问量"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://hits.sh/404-notfound-coder.github.io.svg?view=today-total&style=flat-square&label=%E4%BB%8A%E6%97%A5%20%2F%20%E7%B4%AF%E8%AE%A1&color=f2523a&labelColor=303137"
+                alt="今日和累计访问量"
+                height="20"
+              />
+            </a>
             <a href="https://www.xiaohongshu.com/user/profile/5fce0771000000000100574e" target="_blank" rel="noreferrer">
               <BookOpen size={15} /> 小红书主页
             </a>

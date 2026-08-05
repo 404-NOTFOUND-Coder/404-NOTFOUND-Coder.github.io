@@ -563,6 +563,18 @@ footer span {
   background: #303137;
 }
 
+.footer-links .traffic-counter {
+  min-width: 132px;
+  padding: 0 8px;
+}
+
+.traffic-counter img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 20px;
+}
+
 .drawer-layer {
   position: fixed;
   inset: 0;
