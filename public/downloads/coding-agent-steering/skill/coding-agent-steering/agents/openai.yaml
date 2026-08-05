@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI写代码跑偏后，我不再重开对话"
+  short_description: "Coding Agent 跑偏时，用停止、重申目标、限制下一步完成纠偏。可直接复用的AI工作流模板。"
+  default_prompt: "Use $coding-agent-steering to process my material with this workflow."

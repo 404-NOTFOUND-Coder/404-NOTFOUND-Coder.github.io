@@ -1,0 +1,470 @@
+[
+  {
+    "slug": "pdf-to-report",
+    "title": "30页资料，怎么用 AI 10 分钟整理成汇报",
+    "description": "把长 PDF 变成带出处、可复核的阅读框架和汇报提纲。",
+    "category": "汇报表达",
+    "tags": [
+      "PDF",
+      "汇报",
+      "资料整理"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「30页资料，怎么用 AI 10 分钟整理成汇报」任务。\n\n【输入】\n- PDF 或资料正文：{{请填写}}\n- 汇报对象与时长：{{请填写}}\n- 必须回答的问题：{{请填写}}\n\n【执行步骤】\n1. 提取问题、方法、结论和待复核点\n2. 按观点、原文依据、汇报表达制表\n3. 生成背景到个人判断的五段式提纲\n\n【输出内容】\n1. 四问阅读框架\n2. 带出处的阅读表\n3. 五段式汇报提纲\n4. 高风险复核清单\n\n【规则】\n1. 不得补写原文不存在的信息\n2. 关键结论必须附原文位置\n3. 不确定内容明确标记待复核\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-15",
+    "promptUrl": "/downloads/pdf-to-report/prompt.md",
+    "sourceUrl": "/downloads/pdf-to-report/source.md",
+    "skillUrl": "/downloads/pdf-to-report/skill/pdf-to-report/SKILL.md",
+    "bundleUrl": "/downloads/pdf-to-report/pdf-to-report-complete.zip"
+  },
+  {
+    "slug": "dragon-boat-greetings",
+    "title": "端午祝福别群发｜给导师老板这样写",
+    "description": "根据真实关系与交集，写出没有群发感的节日祝福。",
+    "category": "生活场景",
+    "tags": [
+      "节日祝福",
+      "沟通",
+      "写作"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「端午祝福别群发｜给导师老板这样写」任务。\n\n【输入】\n- 祝福对象及关系：{{请填写}}\n- 最近一次真实交集：{{请填写}}\n- 平时说话语气：{{请填写}}\n- 期望长度：{{请填写}}\n\n【执行步骤】\n1. 识别双方关系与合适边界\n2. 只使用已提供的真实细节\n3. 分别生成克制、自然两个版本\n\n【输出内容】\n1. 简短版祝福\n2. 自然版祝福\n3. 发送前人工修改建议\n\n【规则】\n1. 不得编造共同经历\n2. 避免空泛节日辞藻\n3. 不同对象分别生成\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-18",
+    "promptUrl": "/downloads/dragon-boat-greetings/prompt.md",
+    "sourceUrl": "/downloads/dragon-boat-greetings/source.md",
+    "skillUrl": "/downloads/dragon-boat-greetings/skill/dragon-boat-greetings/SKILL.md",
+    "bundleUrl": "/downloads/dragon-boat-greetings/dragon-boat-greetings-complete.zip"
+  },
+  {
+    "slug": "group-chat-to-itinerary",
+    "title": "端午出发前｜30条群聊3分钟变行程表",
+    "description": "把旅行群里的零散讨论整理成可执行、可核对的行程表。",
+    "category": "生活场景",
+    "tags": [
+      "群聊",
+      "旅行",
+      "行程表"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「端午出发前｜30条群聊3分钟变行程表」任务。\n\n【输入】\n- 已脱敏的旅行群聊：{{请填写}}\n- 出行日期：{{请填写}}\n- 已确认订单信息：{{请填写}}\n\n【执行步骤】\n1. 按时间提取集合、交通、住宿与活动\n2. 区分已确认、暂定和待确认\n3. 列出成员分工与出发前核对项\n\n【输出内容】\n1. 按时间排序的行程表\n2. 待确认事项\n3. 人员分工\n4. 出发前检查清单\n\n【规则】\n1. 不得猜测缺失行程\n2. 票务天气需提示官方复核\n3. 不得保留隐私和完整订单号\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-18",
+    "promptUrl": "/downloads/group-chat-to-itinerary/prompt.md",
+    "sourceUrl": "/downloads/group-chat-to-itinerary/source.md",
+    "skillUrl": "/downloads/group-chat-to-itinerary/skill/group-chat-to-itinerary/SKILL.md",
+    "bundleUrl": "/downloads/group-chat-to-itinerary/group-chat-to-itinerary-complete.zip"
+  },
+  {
+    "slug": "messages-to-todo",
+    "title": "节后开工前｜把工作群消息整理成周一待办",
+    "description": "从零散群消息中提取动作、负责人、时间和追问项。",
+    "category": "信息整理",
+    "tags": [
+      "群消息",
+      "待办",
+      "项目管理"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「节后开工前｜把工作群消息整理成周一待办」任务。\n\n【输入】\n- 已脱敏且与自己相关的消息：{{请填写}}\n- 当前日期：{{请填写}}\n- 已有任务清单：{{请填写}}\n\n【执行步骤】\n1. 逐条识别明确动作与承诺\n2. 提取负责人、截止时间和消息出处\n3. 把模糊表述改为待追问问题\n\n【输出内容】\n1. 可执行待办表\n2. 待确认问题\n3. 优先级建议\n4. 遗漏风险\n\n【规则】\n1. 没有明确的信息标记待确认\n2. 不上传敏感工作内容\n3. 保留消息出处便于核对\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-18",
+    "promptUrl": "/downloads/messages-to-todo/prompt.md",
+    "sourceUrl": "/downloads/messages-to-todo/source.md",
+    "skillUrl": "/downloads/messages-to-todo/skill/messages-to-todo/SKILL.md",
+    "bundleUrl": "/downloads/messages-to-todo/messages-to-todo-complete.zip"
+  },
+  {
+    "slug": "paper-comparison-table",
+    "title": "我的文献阅读整理法｜先做一张对比表",
+    "description": "用统一维度比较多篇论文，定位共识、分歧和研究空白。",
+    "category": "科研学习",
+    "tags": [
+      "论文阅读",
+      "对比表",
+      "科研"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「我的文献阅读整理法｜先做一张对比表」任务。\n\n【输入】\n- 多篇论文全文或结构化摘录：{{请填写}}\n- 研究主题：{{请填写}}\n- 希望比较的维度：{{请填写}}\n\n【执行步骤】\n1. 按问题、方法、数据、结论、局限统一提取\n2. 横向比较共识和分歧\n3. 标出可能的研究空白与复核位置\n\n【输出内容】\n1. 文献对比表\n2. 共识与分歧\n3. 研究空白候选\n4. 原文复核索引\n\n【规则】\n1. 未找到的信息写未找到\n2. 结论与实验指标回原文确认\n3. 研究空白只作为候选而非事实\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-22",
+    "promptUrl": "/downloads/paper-comparison-table/prompt.md",
+    "sourceUrl": "/downloads/paper-comparison-table/source.md",
+    "skillUrl": "/downloads/paper-comparison-table/skill/paper-comparison-table/SKILL.md",
+    "bundleUrl": "/downloads/paper-comparison-table/paper-comparison-table-complete.zip"
+  },
+  {
+    "slug": "ai-use-boundaries",
+    "title": "研究AI的博士生｜这3件事我从不交给AI",
+    "description": "为研究与学习任务划分 AI 可执行、需确认和不可外包的边界。",
+    "category": "信息判断",
+    "tags": [
+      "AI边界",
+      "科研规范",
+      "复核"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「研究AI的博士生｜这3件事我从不交给AI」任务。\n\n【输入】\n- 计划交给 AI 的任务：{{请填写}}\n- 风险与责任要求：{{请填写}}\n- 可用资料与工具：{{请填写}}\n\n【执行步骤】\n1. 判断任务属于整理、建议还是最终决策\n2. 识别引用、证据和结论风险\n3. 划分自动执行、人工确认和禁止外包\n\n【输出内容】\n1. 任务边界表\n2. 人工复核点\n3. 允许 AI 执行的动作\n4. 最终责任清单\n\n【规则】\n1. 引用与出处必须人工核验\n2. 证据充分性不能由 AI 决定\n3. 最终判断由使用者负责\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": null,
+    "sourceDate": "2026-06-28",
+    "promptUrl": "/downloads/ai-use-boundaries/prompt.md",
+    "sourceUrl": "/downloads/ai-use-boundaries/source.md",
+    "skillUrl": "/downloads/ai-use-boundaries/skill/ai-use-boundaries/SKILL.md",
+    "bundleUrl": "/downloads/ai-use-boundaries/ai-use-boundaries-complete.zip"
+  },
+  {
+    "slug": "shorter-prompts",
+    "title": "天天用AI后，我的Prompt反而越写越短",
+    "description": "把冗长 Prompt 压缩为目标、材料、输出三部分。",
+    "category": "Prompt方法",
+    "tags": [
+      "Prompt",
+      "提问",
+      "效率"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「天天用AI后，我的Prompt反而越写越短」任务。\n\n【输入】\n- 当前长 Prompt：{{请填写}}\n- 唯一目标：{{请填写}}\n- 必须保留的限制：{{请填写}}\n\n【执行步骤】\n1. 删除角色扮演和重复背景\n2. 保留唯一目标与必要材料\n3. 明确输出格式和验收条件\n\n【输出内容】\n1. 三段式精简 Prompt\n2. 删除项说明\n3. 缺失信息问题\n\n【规则】\n1. 不删除影响正确性的限制\n2. 一次只保留一个主要目标\n3. 缺少关键材料时先提问\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/shorter-prompts.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/shorter-prompts/prompt.md",
+    "sourceUrl": "/downloads/shorter-prompts/source.md",
+    "skillUrl": "/downloads/shorter-prompts/skill/shorter-prompts/SKILL.md",
+    "bundleUrl": "/downloads/shorter-prompts/shorter-prompts-complete.zip"
+  },
+  {
+    "slug": "one-table-notes",
+    "title": "读完一堆资料后，我只留下这张表",
+    "description": "把资料压成原话、自己的理解、实际用途三列表。",
+    "category": "科研学习",
+    "tags": [
+      "学习笔记",
+      "知识管理",
+      "表格"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「读完一堆资料后，我只留下这张表」任务。\n\n【输入】\n- 资料正文或摘录：{{请填写}}\n- 当前研究或学习问题：{{请填写}}\n- 原文位置：{{请填写}}\n\n【执行步骤】\n1. 保留关键原话与出处\n2. 用自己的语言解释含义\n3. 说明能支持哪个问题或判断\n\n【输出内容】\n1. 三列学习表\n2. 无法解释项\n3. 无法落地项\n4. 复读建议\n\n【规则】\n1. 理解列不得照抄原文\n2. 用途不明确时标记暂不收录\n3. 不编造出处\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/one-table-notes.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/one-table-notes/prompt.md",
+    "sourceUrl": "/downloads/one-table-notes/source.md",
+    "skillUrl": "/downloads/one-table-notes/skill/one-table-notes/SKILL.md",
+    "bundleUrl": "/downloads/one-table-notes/one-table-notes-complete.zip"
+  },
+  {
+    "slug": "summer-task-pool",
+    "title": "暑假计划别写太满｜我先让AI删掉一半",
+    "description": "把过满计划删减为可执行任务池，并保留必要缓冲。",
+    "category": "自我管理",
+    "tags": [
+      "计划",
+      "任务池",
+      "减法"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「暑假计划别写太满｜我先让AI删掉一半」任务。\n\n【输入】\n- 全部待办：{{请填写}}\n- 可用时间：{{请填写}}\n- 硬性截止日期：{{请填写}}\n- 近期主目标：{{请填写}}\n\n【执行步骤】\n1. 按影响与紧迫度判断价值\n2. 删除重复、模糊和短期无法推进项\n3. 安排核心、可选和恢复任务\n\n【输出内容】\n1. 精简任务池\n2. 暂缓清单\n3. 每周上限\n4. 缓冲时间建议\n\n【规则】\n1. 不把每天排满\n2. 优先保留影响近期结果的任务\n3. 说明被删除任务的原因\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/summer-task-pool.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/summer-task-pool/prompt.md",
+    "sourceUrl": "/downloads/summer-task-pool/source.md",
+    "skillUrl": "/downloads/summer-task-pool/skill/summer-task-pool/SKILL.md",
+    "bundleUrl": "/downloads/summer-task-pool/summer-task-pool-complete.zip"
+  },
+  {
+    "slug": "low-energy-study",
+    "title": "天气越热，我越不想靠意志力学习",
+    "description": "根据精力而不是意志力，安排高、中、低负荷学习任务。",
+    "category": "自我管理",
+    "tags": [
+      "学习计划",
+      "精力管理",
+      "低状态"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「天气越热，我越不想靠意志力学习」任务。\n\n【输入】\n- 今日精力水平：{{请填写}}\n- 可用时间段：{{请填写}}\n- 任务列表：{{请填写}}\n- 必须完成项：{{请填写}}\n\n【执行步骤】\n1. 估计每项任务的认知负荷\n2. 匹配高、中、低精力时段\n3. 把大任务拆成最小可启动动作\n\n【输出内容】\n1. 精力匹配日程\n2. 最低完成线\n3. 恢复性任务\n4. 明日接续点\n\n【规则】\n1. 不把低精力解释为懒惰\n2. 保留休息和恢复\n3. 避免过度承诺\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/low-energy-study.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/low-energy-study/prompt.md",
+    "sourceUrl": "/downloads/low-energy-study/source.md",
+    "skillUrl": "/downloads/low-energy-study/skill/low-energy-study/SKILL.md",
+    "bundleUrl": "/downloads/low-energy-study/low-energy-study-complete.zip"
+  },
+  {
+    "slug": "find-stuck-points",
+    "title": "读不懂资料时，我不让AI总结",
+    "description": "不直接总结难资料，而是先定位术语、逻辑和前置知识卡点。",
+    "category": "科研学习",
+    "tags": [
+      "难文献",
+      "卡点",
+      "阅读"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「读不懂资料时，我不让AI总结」任务。\n\n【输入】\n- 读不懂的原文段落：{{请填写}}\n- 自己的理解：{{请填写}}\n- 已掌握的背景知识：{{请填写}}\n\n【执行步骤】\n1. 逐句标出术语与指代\n2. 还原论证链条\n3. 识别缺失的前置知识\n4. 给出最短补课路径\n\n【输出内容】\n1. 卡点清单\n2. 逻辑链\n3. 前置知识地图\n4. 回读顺序\n\n【规则】\n1. 不跳过原文直接给结论\n2. 区分原文含义与解释\n3. 不确定解释需显式标注\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/find-stuck-points.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/find-stuck-points/prompt.md",
+    "sourceUrl": "/downloads/find-stuck-points/source.md",
+    "skillUrl": "/downloads/find-stuck-points/skill/find-stuck-points/SKILL.md",
+    "bundleUrl": "/downloads/find-stuck-points/find-stuck-points-complete.zip"
+  },
+  {
+    "slug": "procrastination-log",
+    "title": "我把一天的拖延记录喂给AI，发现不是我懒",
+    "description": "分析一天的行为记录，找到拖延发生的具体触发点。",
+    "category": "自我管理",
+    "tags": [
+      "拖延",
+      "行为记录",
+      "复盘"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「我把一天的拖延记录喂给AI，发现不是我懒」任务。\n\n【输入】\n- 按时间记录的一天行为：{{请填写}}\n- 原计划：{{请填写}}\n- 当时精力与情绪：{{请填写}}\n\n【执行步骤】\n1. 对齐计划与实际行为\n2. 寻找任务切换和逃避触发点\n3. 区分任务模糊、阻力过高和环境干扰\n\n【输出内容】\n1. 拖延触发点\n2. 证据片段\n3. 下一次替代动作\n4. 一项环境调整\n\n【规则】\n1. 不做心理或医学诊断\n2. 不使用懒惰等人格标签\n3. 建议必须小且可执行\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/procrastination-log.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/procrastination-log/prompt.md",
+    "sourceUrl": "/downloads/procrastination-log/source.md",
+    "skillUrl": "/downloads/procrastination-log/skill/procrastination-log/SKILL.md",
+    "bundleUrl": "/downloads/procrastination-log/procrastination-log-complete.zip"
+  },
+  {
+    "slug": "not-to-do-list",
+    "title": "我用AI做了一个“不做清单”",
+    "description": "把待办分成必须做、可以晚点做和暂时不做。",
+    "category": "自我管理",
+    "tags": [
+      "不做清单",
+      "优先级",
+      "注意力"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「我用AI做了一个“不做清单”」任务。\n\n【输入】\n- 当前全部待办：{{请填写}}\n- 本周唯一目标：{{请填写}}\n- 截止日期与依赖：{{请填写}}\n\n【执行步骤】\n1. 识别真正影响进度的任务\n2. 找出只缓解焦虑但不产出结果的任务\n3. 判断一周内能否真实推进\n\n【输出内容】\n1. 必须做\n2. 可以晚点做\n3. 暂时不做\n4. 重新评估日期\n\n【规则】\n1. 解释每个分类的依据\n2. 不把长期重要任务永久删除\n3. 保留硬截止日期任务\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/not-to-do-list.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/not-to-do-list/prompt.md",
+    "sourceUrl": "/downloads/not-to-do-list/source.md",
+    "skillUrl": "/downloads/not-to-do-list/skill/not-to-do-list/SKILL.md",
+    "bundleUrl": "/downloads/not-to-do-list/not-to-do-list-complete.zip"
+  },
+  {
+    "slug": "waic-filter",
+    "title": "AI大会前，我只用3个问题过滤热点",
+    "description": "用三个落地问题过滤 AI 大会、新模型和产品热点。",
+    "category": "信息判断",
+    "tags": [
+      "AI热点",
+      "信息过滤",
+      "WAIC"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI大会前，我只用3个问题过滤热点」任务。\n\n【输入】\n- 热点新闻或发布内容：{{请填写}}\n- 自己的真实任务：{{请填写}}\n- 当前工具栈：{{请填写}}\n\n【执行步骤】\n1. 判断是否减少重复整理\n2. 判断是否提高结果复核能力\n3. 判断能否沉淀为可重复流程\n\n【输出内容】\n1. 三问评分表\n2. 立即试用项\n3. 继续观察项\n4. 忽略理由\n\n【规则】\n1. 区分宣传演示与可验证能力\n2. 不因新颖直接替换现有工具\n3. 结论注明证据来源\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/waic-filter.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/waic-filter/prompt.md",
+    "sourceUrl": "/downloads/waic-filter/source.md",
+    "skillUrl": "/downloads/waic-filter/skill/waic-filter/SKILL.md",
+    "bundleUrl": "/downloads/waic-filter/waic-filter-complete.zip"
+  },
+  {
+    "slug": "hot-day-three-tasks",
+    "title": "热到不想动，我让AI把今天压成3件事",
+    "description": "低状态时把一天压缩成推进、维护、恢复三件事。",
+    "category": "自我管理",
+    "tags": [
+      "三件事",
+      "低状态",
+      "任务压缩"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「热到不想动，我让AI把今天压成3件事」任务。\n\n【输入】\n- 今日待办：{{请填写}}\n- 当前状态：{{请填写}}\n- 不可推迟事项：{{请填写}}\n- 可用时间：{{请填写}}\n\n【执行步骤】\n1. 选一件真正推进结果的任务\n2. 选一件维持系统运转的任务\n3. 选一件帮助恢复的任务\n\n【输出内容】\n1. 今日三件事\n2. 每项最低完成线\n3. 建议执行顺序\n4. 其余任务安置\n\n【规则】\n1. 总任务不超过三项\n2. 恢复任务不能被删除\n3. 不要伪装成更长的子任务列表\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/hot-day-three-tasks.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/hot-day-three-tasks/prompt.md",
+    "sourceUrl": "/downloads/hot-day-three-tasks/source.md",
+    "skillUrl": "/downloads/hot-day-three-tasks/skill/hot-day-three-tasks/SKILL.md",
+    "bundleUrl": "/downloads/hot-day-three-tasks/hot-day-three-tasks-complete.zip"
+  },
+  {
+    "slug": "prompt-three-lines",
+    "title": "我现在写Prompt，只保留这3句话",
+    "description": "用目标、依据、格式三句话写出清楚且可验收的 Prompt。",
+    "category": "Prompt方法",
+    "tags": [
+      "Prompt",
+      "三句话",
+      "输出格式"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「我现在写Prompt，只保留这3句话」任务。\n\n【输入】\n- 要解决的唯一问题：{{请填写}}\n- AI 可使用的材料：{{请填写}}\n- 期望输出格式：{{请填写}}\n\n【执行步骤】\n1. 把目标改写成一个动作\n2. 限定只能依据给定材料\n3. 写清字段、长度和不确定项处理\n\n【输出内容】\n1. 三句话 Prompt\n2. 变量占位符\n3. 验收检查项\n\n【规则】\n1. 目标不得包含多个并列任务\n2. 材料范围必须清楚\n3. 输出格式应可检查\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/prompt-three-lines.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/prompt-three-lines/prompt.md",
+    "sourceUrl": "/downloads/prompt-three-lines/source.md",
+    "skillUrl": "/downloads/prompt-three-lines/skill/prompt-three-lines/SKILL.md",
+    "bundleUrl": "/downloads/prompt-three-lines/prompt-three-lines-complete.zip"
+  },
+  {
+    "slug": "waic-after-filter",
+    "title": "AI大会看完，我只留下3个能用的方向",
+    "description": "把大会热点归入整理、复核和流程三类可用方向。",
+    "category": "信息判断",
+    "tags": [
+      "AI大会",
+      "落地",
+      "工作流"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI大会看完，我只留下3个能用的方向」任务。\n\n【输入】\n- 会后笔记或产品清单：{{请填写}}\n- 自己的高频任务：{{请填写}}\n- 验证所需成本：{{请填写}}\n\n【执行步骤】\n1. 逐项映射到整理、复核或固定流程\n2. 设计一个最小验证任务\n3. 比较迁移成本和实际收益\n\n【输出内容】\n1. 可用方向清单\n2. 最小实验\n3. 观察指标\n4. 暂不采用项\n\n【规则】\n1. 不把演示效果当稳定能力\n2. 一次只验证一个变量\n3. 没有任务匹配时不强行采用\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/waic-after-filter.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/waic-after-filter/prompt.md",
+    "sourceUrl": "/downloads/waic-after-filter/source.md",
+    "skillUrl": "/downloads/waic-after-filter/skill/waic-after-filter/SKILL.md",
+    "bundleUrl": "/downloads/waic-after-filter/waic-after-filter-complete.zip"
+  },
+  {
+    "slug": "ride-debrief",
+    "title": "骑车回来后，我用AI复盘了10分钟",
+    "description": "把骑行数据和主观感受整理成下一次可执行的调整。",
+    "category": "生活场景",
+    "tags": [
+      "骑行",
+      "复盘",
+      "成都生活"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「骑车回来后，我用AI复盘了10分钟」任务。\n\n【输入】\n- 路线与运动数据：{{请填写}}\n- 途中感受：{{请填写}}\n- 补给和装备记录：{{请填写}}\n- 异常情况：{{请填写}}\n\n【执行步骤】\n1. 对齐时间、路段与主观感受\n2. 识别配速、补给和装备问题\n3. 提出下一次只改一到三项的方案\n\n【输出内容】\n1. 骑行复盘表\n2. 关键问题\n3. 保留做法\n4. 下次调整\n\n【规则】\n1. 不提供医疗诊断\n2. 数据缺失时不得猜测\n3. 身体不适需建议停止并寻求专业意见\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/ride-debrief.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/ride-debrief/prompt.md",
+    "sourceUrl": "/downloads/ride-debrief/source.md",
+    "skillUrl": "/downloads/ride-debrief/skill/ride-debrief/SKILL.md",
+    "bundleUrl": "/downloads/ride-debrief/ride-debrief-complete.zip"
+  },
+  {
+    "slug": "report-checklist",
+    "title": "做汇报前，我不先写PPT，先做这张检查表",
+    "description": "写 PPT 前先检查对象、目标、证据、结论和下一步。",
+    "category": "汇报表达",
+    "tags": [
+      "汇报",
+      "检查表",
+      "PPT"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「做汇报前，我不先写PPT，先做这张检查表」任务。\n\n【输入】\n- 汇报主题：{{请填写}}\n- 听众：{{请填写}}\n- 现有材料：{{请填写}}\n- 希望推动的决定：{{请填写}}\n\n【执行步骤】\n1. 明确听众最关心的问题\n2. 核对每个结论的证据\n3. 删除与目标无关的材料\n4. 补上下一步与待决策项\n\n【输出内容】\n1. 汇报前检查表\n2. 证据缺口\n3. 建议结构\n4. 可删除内容\n\n【规则】\n1. 不先生成华丽措辞\n2. 结论必须有证据支撑\n3. 未知项不得包装成确定事实\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/report-checklist.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/report-checklist/prompt.md",
+    "sourceUrl": "/downloads/report-checklist/source.md",
+    "skillUrl": "/downloads/report-checklist/skill/report-checklist/SKILL.md",
+    "bundleUrl": "/downloads/report-checklist/report-checklist-complete.zip"
+  },
+  {
+    "slug": "progress-three-sentences",
+    "title": "别人问我进展时，我用3句话讲清楚",
+    "description": "用完成了什么、卡在哪里、下一步做什么讲清进展。",
+    "category": "汇报表达",
+    "tags": [
+      "进展汇报",
+      "三句话",
+      "项目管理"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「别人问我进展时，我用3句话讲清楚」任务。\n\n【输入】\n- 本阶段完成事项：{{请填写}}\n- 当前卡点：{{请填写}}\n- 下一步计划：{{请填写}}\n- 时间范围：{{请填写}}\n\n【执行步骤】\n1. 从活动中筛出可验证结果\n2. 用事实描述卡点与影响\n3. 给出下一步动作和预计时间\n\n【输出内容】\n1. 三句话进展\n2. 详细备查版\n3. 需要协助项\n\n【规则】\n1. 不把忙碌当进展\n2. 不隐去影响交付的卡点\n3. 时间估计需说明不确定性\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/progress-three-sentences.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/progress-three-sentences/prompt.md",
+    "sourceUrl": "/downloads/progress-three-sentences/source.md",
+    "skillUrl": "/downloads/progress-three-sentences/skill/progress-three-sentences/SKILL.md",
+    "bundleUrl": "/downloads/progress-three-sentences/progress-three-sentences-complete.zip"
+  },
+  {
+    "slug": "agent-permissions",
+    "title": "AI Agent越能干，我越不敢放权",
+    "description": "为 AI Agent 设计最小权限、确认点和不可逆操作边界。",
+    "category": "Agent协作",
+    "tags": [
+      "AI Agent",
+      "权限",
+      "安全"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI Agent越能干，我越不敢放权」任务。\n\n【输入】\n- Agent 要完成的任务：{{请填写}}\n- 可调用工具：{{请填写}}\n- 文件与账号范围：{{请填写}}\n- 不可逆操作：{{请填写}}\n\n【执行步骤】\n1. 列出完成任务所需的最小权限\n2. 区分浏览、写入和外部提交\n3. 为登录、下载、发送、删除设置确认点\n\n【输出内容】\n1. 权限矩阵\n2. 自动执行项\n3. 人工确认项\n4. 禁止操作项\n\n【规则】\n1. 默认最小权限\n2. 不可逆操作必须确认\n3. 不得访问任务无关目录和账号\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/agent-permissions.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/agent-permissions/prompt.md",
+    "sourceUrl": "/downloads/agent-permissions/source.md",
+    "skillUrl": "/downloads/agent-permissions/skill/agent-permissions/SKILL.md",
+    "bundleUrl": "/downloads/agent-permissions/agent-permissions-complete.zip"
+  },
+  {
+    "slug": "video-understanding-test",
+    "title": "AI真看懂视频了吗？我只测3件事",
+    "description": "用时间顺序、状态变化和证据时间点测试视频理解能力。",
+    "category": "科研学习",
+    "tags": [
+      "视频理解",
+      "多模态",
+      "评测"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI真看懂视频了吗？我只测3件事」任务。\n\n【输入】\n- 视频或带时间戳转写：{{请填写}}\n- 希望验证的结论：{{请填写}}\n- 关键事件列表：{{请填写}}\n\n【执行步骤】\n1. 复述关键事件的时间顺序\n2. 标出对象状态变化\n3. 为每个结论定位证据时间点\n4. 列出不确定项\n\n【输出内容】\n1. 时间轴\n2. 状态变化表\n3. 结论证据索引\n4. 失败样例\n\n【规则】\n1. 摘要不能代替证据定位\n2. 看不到的内容不得猜测\n3. 最终判断回到原视频\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/video-understanding-test.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/video-understanding-test/prompt.md",
+    "sourceUrl": "/downloads/video-understanding-test/source.md",
+    "skillUrl": "/downloads/video-understanding-test/skill/video-understanding-test/SKILL.md",
+    "bundleUrl": "/downloads/video-understanding-test/video-understanding-test-complete.zip"
+  },
+  {
+    "slug": "coding-agent-steering",
+    "title": "AI写代码跑偏后，我不再重开对话",
+    "description": "Coding Agent 跑偏时，用停止、重申目标、限制下一步完成纠偏。",
+    "category": "Agent协作",
+    "tags": [
+      "AI编程",
+      "Coding Agent",
+      "纠偏"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI写代码跑偏后，我不再重开对话」任务。\n\n【输入】\n- 当前唯一目标：{{请填写}}\n- 已经发生的错误：{{请填写}}\n- 允许的下一步：{{请填写}}\n- 禁止动作：{{请填写}}\n\n【执行步骤】\n1. 立即停止当前修改\n2. 用一句话重申唯一目标\n3. 提供失败证据\n4. 限定下一步只做诊断或方案\n\n【输出内容】\n1. 三句纠偏指令\n2. 下一步验收条件\n3. 恢复执行前检查\n\n【规则】\n1. 停止后不得继续改文件\n2. 未确认原因前不扩大修改范围\n3. 保留已有项目上下文\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/coding-agent-steering.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/coding-agent-steering/prompt.md",
+    "sourceUrl": "/downloads/coding-agent-steering/source.md",
+    "skillUrl": "/downloads/coding-agent-steering/skill/coding-agent-steering/SKILL.md",
+    "bundleUrl": "/downloads/coding-agent-steering/coding-agent-steering-complete.zip"
+  },
+  {
+    "slug": "multi-agent-less",
+    "title": "同时开3个AI后，我反而更慢了",
+    "description": "判断任务是否适合多 Agent 并行，并降低合并成本。",
+    "category": "Agent协作",
+    "tags": [
+      "多智能体",
+      "并行",
+      "任务拆分"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「同时开3个AI后，我反而更慢了」任务。\n\n【输入】\n- 总目标：{{请填写}}\n- 候选子任务：{{请填写}}\n- 共享依赖：{{请填写}}\n- 最终输出格式：{{请填写}}\n\n【执行步骤】\n1. 检查子任务是否彼此独立\n2. 统一输入边界与输出格式\n3. 指定总负责人和冲突处理规则\n4. 不满足条件时改为串行\n\n【输出内容】\n1. 并行可行性判断\n2. Agent 分工表\n3. 统一验收标准\n4. 合并流程\n\n【规则】\n1. 不能独立验收的任务不要并行\n2. 避免多个 Agent 重复解决同一问题\n3. 最终决定必须有唯一负责人\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/multi-agent-less.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/multi-agent-less/prompt.md",
+    "sourceUrl": "/downloads/multi-agent-less/source.md",
+    "skillUrl": "/downloads/multi-agent-less/skill/multi-agent-less/SKILL.md",
+    "bundleUrl": "/downloads/multi-agent-less/multi-agent-less-complete.zip"
+  },
+  {
+    "slug": "ai-image-check",
+    "title": "看到一张AI图，我先查这3处",
+    "description": "从来源、画面一致性和外部证据核验疑似 AI 图片。",
+    "category": "信息判断",
+    "tags": [
+      "AI图片",
+      "事实核查",
+      "信息辨别"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「看到一张AI图，我先查这3处」任务。\n\n【输入】\n- 图片及原始链接：{{请填写}}\n- 发布账号信息：{{请填写}}\n- 相关事件线索：{{请填写}}\n\n【执行步骤】\n1. 追溯最早来源和生成说明\n2. 检查文字、反射、遮挡与物体关系\n3. 寻找其他角度、原视频和可信报道\n\n【输出内容】\n1. 证据核验表\n2. 支持与反对线索\n3. 无法确认项\n4. 谨慎结论\n\n【规则】\n1. 不得仅凭手指等单一细节判断\n2. 检测器结果只能作为线索\n3. 证据不足时结论必须保留不确定性\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/ai-image-check.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/ai-image-check/prompt.md",
+    "sourceUrl": "/downloads/ai-image-check/source.md",
+    "skillUrl": "/downloads/ai-image-check/skill/ai-image-check/SKILL.md",
+    "bundleUrl": "/downloads/ai-image-check/ai-image-check-complete.zip"
+  },
+  {
+    "slug": "ai-research-checker",
+    "title": "AI做研究越强，我越常让它挑错",
+    "description": "让 AI 在问题、证据和结果三个阶段主动挑错。",
+    "category": "科研学习",
+    "tags": [
+      "AI科研",
+      "挑错",
+      "研究方法"
+    ],
+    "prompt": "你是一个严谨的工作流助手。请根据我提供的材料完成「AI做研究越强，我越常让它挑错」任务。\n\n【输入】\n- 研究问题或草稿：{{请填写}}\n- 已有证据：{{请填写}}\n- 当前结论：{{请填写}}\n- 适用范围：{{请填写}}\n\n【执行步骤】\n1. 寻找隐藏假设和不可验证说法\n2. 分开支持、反对与缺失证据\n3. 寻找矛盾、边界条件和替代解释\n\n【输出内容】\n1. 问题阶段检查\n2. 证据矩阵\n3. 结果反例\n4. 优先修正项\n\n【规则】\n1. 没找到不等于不存在\n2. 不得替研究者决定问题价值\n3. 最终结论由人负责\n如果输入不足，先列出缺失信息，不要自行补全。输出使用简洁中文，优先使用表格或清单。",
+    "cover": "/covers/ai-research-checker.png",
+    "sourceDate": "publish.md",
+    "promptUrl": "/downloads/ai-research-checker/prompt.md",
+    "sourceUrl": "/downloads/ai-research-checker/source.md",
+    "skillUrl": "/downloads/ai-research-checker/skill/ai-research-checker/SKILL.md",
+    "bundleUrl": "/downloads/ai-research-checker/ai-research-checker-complete.zip"
+  }
+]

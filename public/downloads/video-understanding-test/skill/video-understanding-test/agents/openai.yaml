@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI真看懂视频了吗？我只测3件事"
+  short_description: "用时间顺序、状态变化和证据时间点测试视频理解能力。可直接复用的AI工作流模板。"
+  default_prompt: "Use $video-understanding-test to process my material with this workflow."

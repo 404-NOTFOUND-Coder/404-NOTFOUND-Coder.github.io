@@ -1,0 +1,4 @@
+interface:
+  display_name: "读完一堆资料后，我只留下这张表"
+  short_description: "把资料压成原话、自己的理解、实际用途三列表。可直接复用的AI工作流模板。"
+  default_prompt: "Use $one-table-notes to process my material with this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "同时开3个AI后，我反而更慢了"
+  short_description: "判断任务是否适合多 Agent 并行，并降低合并成本。可直接复用的AI工作流模板。"
+  default_prompt: "Use $multi-agent-less to process my material with this workflow."

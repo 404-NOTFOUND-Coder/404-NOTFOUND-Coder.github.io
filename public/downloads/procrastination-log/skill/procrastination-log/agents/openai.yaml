@@ -1,0 +1,4 @@
+interface:
+  display_name: "我把一天的拖延记录喂给AI，发现不是我懒"
+  short_description: "分析一天的行为记录，找到拖延发生的具体触发点。可直接复用的AI工作流模板。"
+  default_prompt: "Use $procrastination-log to process my material with this workflow."

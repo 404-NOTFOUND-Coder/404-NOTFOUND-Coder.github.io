@@ -1,0 +1,4 @@
+interface:
+  display_name: "读不懂资料时，我不让AI总结"
+  short_description: "不直接总结难资料，而是先定位术语、逻辑和前置知识卡点。可直接复用的AI工作流模板。"
+  default_prompt: "Use $find-stuck-points to process my material with this workflow."

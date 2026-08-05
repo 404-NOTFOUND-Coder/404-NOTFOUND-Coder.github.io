@@ -1,0 +1,4 @@
+interface:
+  display_name: "骑车回来后，我用AI复盘了10分钟"
+  short_description: "把骑行数据和主观感受整理成下一次可执行的调整。可直接复用的AI工作流模板。"
+  default_prompt: "Use $ride-debrief to process my material with this workflow."

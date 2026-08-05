@@ -1,0 +1,4 @@
+interface:
+  display_name: "30页资料，怎么用 AI 10 分钟整理成汇报"
+  short_description: "把长 PDF 变成带出处、可复核的阅读框架和汇报提纲。可直接复用的AI工作流模板。"
+  default_prompt: "Use $pdf-to-report to process my material with this workflow."

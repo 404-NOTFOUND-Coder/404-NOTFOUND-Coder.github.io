@@ -1,0 +1,4 @@
+interface:
+  display_name: "别人问我进展时，我用3句话讲清楚"
+  short_description: "用完成了什么、卡在哪里、下一步做什么讲清进展。可直接复用的AI工作流模板。"
+  default_prompt: "Use $progress-three-sentences to process my material with this workflow."

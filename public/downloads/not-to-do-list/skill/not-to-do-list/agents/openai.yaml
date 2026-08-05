@@ -1,0 +1,4 @@
+interface:
+  display_name: "我用AI做了一个“不做清单”"
+  short_description: "把待办分成必须做、可以晚点做和暂时不做。可直接复用的AI工作流模板。"
+  default_prompt: "Use $not-to-do-list to process my material with this workflow."

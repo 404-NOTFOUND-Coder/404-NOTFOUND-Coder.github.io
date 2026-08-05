@@ -1,0 +1,4 @@
+interface:
+  display_name: "做汇报前，我不先写PPT，先做这张检查表"
+  short_description: "写 PPT 前先检查对象、目标、证据、结论和下一步。可直接复用的AI工作流模板。"
+  default_prompt: "Use $report-checklist to process my material with this workflow."

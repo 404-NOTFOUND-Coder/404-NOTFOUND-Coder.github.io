@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大会看完，我只留下3个能用的方向"
+  short_description: "把大会热点归入整理、复核和流程三类可用方向。可直接复用的AI工作流模板。"
+  default_prompt: "Use $waic-after-filter to process my material with this workflow."

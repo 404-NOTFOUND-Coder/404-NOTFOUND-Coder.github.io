@@ -1,0 +1,4 @@
+interface:
+  display_name: "热到不想动，我让AI把今天压成3件事"
+  short_description: "低状态时把一天压缩成推进、维护、恢复三件事。可直接复用的AI工作流模板。"
+  default_prompt: "Use $hot-day-three-tasks to process my material with this workflow."

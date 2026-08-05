@@ -1,0 +1,4 @@
+interface:
+  display_name: "节后开工前｜把工作群消息整理成周一待办"
+  short_description: "从零散群消息中提取动作、负责人、时间和追问项。可直接复用的AI工作流模板。"
+  default_prompt: "Use $messages-to-todo to process my material with this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "暑假计划别写太满｜我先让AI删掉一半"
+  short_description: "把过满计划删减为可执行任务池，并保留必要缓冲。可直接复用的AI工作流模板。"
+  default_prompt: "Use $summer-task-pool to process my material with this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "端午出发前｜30条群聊3分钟变行程表"
+  short_description: "把旅行群里的零散讨论整理成可执行、可核对的行程表。可直接复用的AI工作流模板。"
+  default_prompt: "Use $group-chat-to-itinerary to process my material with this workflow."

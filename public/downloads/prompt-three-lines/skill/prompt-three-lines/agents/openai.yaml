@@ -1,0 +1,4 @@
+interface:
+  display_name: "我现在写Prompt，只保留这3句话"
+  short_description: "用目标、依据、格式三句话写出清楚且可验收的 Prompt。可直接复用的AI工作流模板。"
+  default_prompt: "Use $prompt-three-lines to process my material with this workflow."

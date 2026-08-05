@@ -1,0 +1,4 @@
+interface:
+  display_name: "我的文献阅读整理法｜先做一张对比表"
+  short_description: "用统一维度比较多篇论文，定位共识、分歧和研究空白。可直接复用的AI工作流模板。"
+  default_prompt: "Use $paper-comparison-table to process my material with this workflow."

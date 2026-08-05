@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI大会前，我只用3个问题过滤热点"
+  short_description: "用三个落地问题过滤 AI 大会、新模型和产品热点。可直接复用的AI工作流模板。"
+  default_prompt: "Use $waic-filter to process my material with this workflow."

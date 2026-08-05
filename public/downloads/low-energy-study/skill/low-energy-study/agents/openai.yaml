@@ -1,0 +1,4 @@
+interface:
+  display_name: "天气越热，我越不想靠意志力学习"
+  short_description: "根据精力而不是意志力，安排高、中、低负荷学习任务。可直接复用的AI工作流模板。"
+  default_prompt: "Use $low-energy-study to process my material with this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Agent越能干，我越不敢放权"
+  short_description: "为 AI Agent 设计最小权限、确认点和不可逆操作边界。可直接复用的AI工作流模板。"
+  default_prompt: "Use $agent-permissions to process my material with this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "天天用AI后，我的Prompt反而越写越短"
+  short_description: "把冗长 Prompt 压缩为目标、材料、输出三部分。可直接复用的AI工作流模板。"
+  default_prompt: "Use $shorter-prompts to process my material with this workflow."

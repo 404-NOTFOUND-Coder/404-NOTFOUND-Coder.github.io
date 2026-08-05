@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究AI的博士生｜这3件事我从不交给AI"
+  short_description: "为研究与学习任务划分 AI 可执行、需确认和不可外包的边界。可直接复用的AI工作流模板。"
+  default_prompt: "Use $ai-use-boundaries to process my material with this workflow."
