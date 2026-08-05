@@ -9,11 +9,13 @@ import {
   Download,
   FileCode2,
   FileText,
+  GitFork,
   Layers3,
   PackageOpen,
   Search,
   ShieldCheck,
   Sparkles,
+  Star,
   X,
 } from "lucide-react";
 import Image from "next/image";
@@ -120,7 +122,7 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
             <p className="eyebrow"><Sparkles size={15} /> Peter 的 AI 实用方法</p>
             <h1>把看过的方法，变成能直接运行的工作流</h1>
             <p className="intro-copy">
-              每个主题同时提供可复制 Prompt 和可安装 Skill。AI 负责整理，人负责证据与判断。
+              每个主题同时提供可复制 Prompt 和可安装 Skill。
             </p>
           </div>
           <div className="principle-strip" aria-label="模板特点">
@@ -219,7 +221,17 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
 
       <footer>
         <span>AI 工作流模板库</span>
-        <p>模板用于整理与辅助思考，重要结论、引用和外部操作请人工复核。</p>
+        <div className="footer-right">
+          <p>模板用于整理与辅助思考，重要结论、引用和外部操作请人工复核。</p>
+          <div className="footer-links">
+            <a href="https://github.com/404-NOTFOUND-Coder" target="_blank" rel="noreferrer">
+              <GitFork size={15} /> @404-NOTFOUND-Coder
+            </a>
+            <a href="https://github.com/404-NOTFOUND-Coder/404-NOTFOUND-Coder.github.io" target="_blank" rel="noreferrer">
+              <Star size={15} /> Star 模板库
+            </a>
+          </div>
+        </div>
       </footer>
 
       {selected ? (

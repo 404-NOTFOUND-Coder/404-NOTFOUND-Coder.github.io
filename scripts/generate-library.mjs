@@ -1,6 +1,6 @@
 import { execFileSync } from "node:child_process";
 import { copyFileSync, cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { basename, dirname, join } from "node:path";
+import { dirname, join } from "node:path";
 
 const projectRoot = "/Users/peter/Desktop/研究生/ai agent/ai-workflow-library";
 const sourceRoot = "/Users/peter/Desktop/研究生/ai agent/my-channel";
@@ -303,6 +303,12 @@ function readTitle(markdown) {
   return match?.[1]?.trim() ?? "未命名工作流";
 }
 
+function readSourceDate(source) {
+  const match = source.match(/\d{4}-\d{2}-\d{2}/);
+  if (!match) throw new Error(`Source path is missing a publish date: ${source}`);
+  return match[0];
+}
+
 function promptText(work) {
   const inputLines = work.inputs.map((item) => `- ${item}：{{请填写}}`).join("\n");
   const stepLines = work.steps.map((item, index) => `${index + 1}. ${item}`).join("\n");
@@ -389,7 +395,7 @@ for (const draft of works) {
     tags: work.tags,
     prompt,
     cover,
-    sourceDate: basename(work.source).slice(0, 10),
+    sourceDate: readSourceDate(work.source),
     promptUrl: `/downloads/${work.slug}/prompt.md`,
     skillUrl: `/downloads/${work.slug}/skill/${work.slug}/SKILL.md`,
     bundleUrl: `/downloads/${work.slug}/${work.slug}-complete.zip`,
