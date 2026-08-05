@@ -13,7 +13,6 @@
     "cover": null,
     "sourceDate": "2026-06-15",
     "promptUrl": "/downloads/pdf-to-report/prompt.md",
-    "sourceUrl": "/downloads/pdf-to-report/source.md",
     "skillUrl": "/downloads/pdf-to-report/skill/pdf-to-report/SKILL.md",
     "bundleUrl": "/downloads/pdf-to-report/pdf-to-report-complete.zip"
   },
@@ -31,7 +30,6 @@
     "cover": null,
     "sourceDate": "2026-06-18",
     "promptUrl": "/downloads/dragon-boat-greetings/prompt.md",
-    "sourceUrl": "/downloads/dragon-boat-greetings/source.md",
     "skillUrl": "/downloads/dragon-boat-greetings/skill/dragon-boat-greetings/SKILL.md",
     "bundleUrl": "/downloads/dragon-boat-greetings/dragon-boat-greetings-complete.zip"
   },
@@ -49,7 +47,6 @@
     "cover": null,
     "sourceDate": "2026-06-18",
     "promptUrl": "/downloads/group-chat-to-itinerary/prompt.md",
-    "sourceUrl": "/downloads/group-chat-to-itinerary/source.md",
     "skillUrl": "/downloads/group-chat-to-itinerary/skill/group-chat-to-itinerary/SKILL.md",
     "bundleUrl": "/downloads/group-chat-to-itinerary/group-chat-to-itinerary-complete.zip"
   },
@@ -67,7 +64,6 @@
     "cover": null,
     "sourceDate": "2026-06-18",
     "promptUrl": "/downloads/messages-to-todo/prompt.md",
-    "sourceUrl": "/downloads/messages-to-todo/source.md",
     "skillUrl": "/downloads/messages-to-todo/skill/messages-to-todo/SKILL.md",
     "bundleUrl": "/downloads/messages-to-todo/messages-to-todo-complete.zip"
   },
@@ -85,7 +81,6 @@
     "cover": null,
     "sourceDate": "2026-06-22",
     "promptUrl": "/downloads/paper-comparison-table/prompt.md",
-    "sourceUrl": "/downloads/paper-comparison-table/source.md",
     "skillUrl": "/downloads/paper-comparison-table/skill/paper-comparison-table/SKILL.md",
     "bundleUrl": "/downloads/paper-comparison-table/paper-comparison-table-complete.zip"
   },
@@ -103,7 +98,6 @@
     "cover": null,
     "sourceDate": "2026-06-28",
     "promptUrl": "/downloads/ai-use-boundaries/prompt.md",
-    "sourceUrl": "/downloads/ai-use-boundaries/source.md",
     "skillUrl": "/downloads/ai-use-boundaries/skill/ai-use-boundaries/SKILL.md",
     "bundleUrl": "/downloads/ai-use-boundaries/ai-use-boundaries-complete.zip"
   },
@@ -121,7 +115,6 @@
     "cover": "/covers/shorter-prompts.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/shorter-prompts/prompt.md",
-    "sourceUrl": "/downloads/shorter-prompts/source.md",
     "skillUrl": "/downloads/shorter-prompts/skill/shorter-prompts/SKILL.md",
     "bundleUrl": "/downloads/shorter-prompts/shorter-prompts-complete.zip"
   },
@@ -139,7 +132,6 @@
     "cover": "/covers/one-table-notes.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/one-table-notes/prompt.md",
-    "sourceUrl": "/downloads/one-table-notes/source.md",
     "skillUrl": "/downloads/one-table-notes/skill/one-table-notes/SKILL.md",
     "bundleUrl": "/downloads/one-table-notes/one-table-notes-complete.zip"
   },
@@ -157,7 +149,6 @@
     "cover": "/covers/summer-task-pool.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/summer-task-pool/prompt.md",
-    "sourceUrl": "/downloads/summer-task-pool/source.md",
     "skillUrl": "/downloads/summer-task-pool/skill/summer-task-pool/SKILL.md",
     "bundleUrl": "/downloads/summer-task-pool/summer-task-pool-complete.zip"
   },
@@ -175,7 +166,6 @@
     "cover": "/covers/low-energy-study.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/low-energy-study/prompt.md",
-    "sourceUrl": "/downloads/low-energy-study/source.md",
     "skillUrl": "/downloads/low-energy-study/skill/low-energy-study/SKILL.md",
     "bundleUrl": "/downloads/low-energy-study/low-energy-study-complete.zip"
   },
@@ -193,7 +183,6 @@
     "cover": "/covers/find-stuck-points.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/find-stuck-points/prompt.md",
-    "sourceUrl": "/downloads/find-stuck-points/source.md",
     "skillUrl": "/downloads/find-stuck-points/skill/find-stuck-points/SKILL.md",
     "bundleUrl": "/downloads/find-stuck-points/find-stuck-points-complete.zip"
   },
@@ -211,7 +200,6 @@
     "cover": "/covers/procrastination-log.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/procrastination-log/prompt.md",
-    "sourceUrl": "/downloads/procrastination-log/source.md",
     "skillUrl": "/downloads/procrastination-log/skill/procrastination-log/SKILL.md",
     "bundleUrl": "/downloads/procrastination-log/procrastination-log-complete.zip"
   },
@@ -229,7 +217,6 @@
     "cover": "/covers/not-to-do-list.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/not-to-do-list/prompt.md",
-    "sourceUrl": "/downloads/not-to-do-list/source.md",
     "skillUrl": "/downloads/not-to-do-list/skill/not-to-do-list/SKILL.md",
     "bundleUrl": "/downloads/not-to-do-list/not-to-do-list-complete.zip"
   },
@@ -247,7 +234,6 @@
     "cover": "/covers/waic-filter.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/waic-filter/prompt.md",
-    "sourceUrl": "/downloads/waic-filter/source.md",
     "skillUrl": "/downloads/waic-filter/skill/waic-filter/SKILL.md",
     "bundleUrl": "/downloads/waic-filter/waic-filter-complete.zip"
   },
@@ -265,7 +251,6 @@
     "cover": "/covers/hot-day-three-tasks.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/hot-day-three-tasks/prompt.md",
-    "sourceUrl": "/downloads/hot-day-three-tasks/source.md",
     "skillUrl": "/downloads/hot-day-three-tasks/skill/hot-day-three-tasks/SKILL.md",
     "bundleUrl": "/downloads/hot-day-three-tasks/hot-day-three-tasks-complete.zip"
   },
@@ -283,7 +268,6 @@
     "cover": "/covers/prompt-three-lines.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/prompt-three-lines/prompt.md",
-    "sourceUrl": "/downloads/prompt-three-lines/source.md",
     "skillUrl": "/downloads/prompt-three-lines/skill/prompt-three-lines/SKILL.md",
     "bundleUrl": "/downloads/prompt-three-lines/prompt-three-lines-complete.zip"
   },
@@ -301,7 +285,6 @@
     "cover": "/covers/waic-after-filter.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/waic-after-filter/prompt.md",
-    "sourceUrl": "/downloads/waic-after-filter/source.md",
     "skillUrl": "/downloads/waic-after-filter/skill/waic-after-filter/SKILL.md",
     "bundleUrl": "/downloads/waic-after-filter/waic-after-filter-complete.zip"
   },
@@ -319,7 +302,6 @@
     "cover": "/covers/ride-debrief.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/ride-debrief/prompt.md",
-    "sourceUrl": "/downloads/ride-debrief/source.md",
     "skillUrl": "/downloads/ride-debrief/skill/ride-debrief/SKILL.md",
     "bundleUrl": "/downloads/ride-debrief/ride-debrief-complete.zip"
   },
@@ -337,7 +319,6 @@
     "cover": "/covers/report-checklist.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/report-checklist/prompt.md",
-    "sourceUrl": "/downloads/report-checklist/source.md",
     "skillUrl": "/downloads/report-checklist/skill/report-checklist/SKILL.md",
     "bundleUrl": "/downloads/report-checklist/report-checklist-complete.zip"
   },
@@ -355,7 +336,6 @@
     "cover": "/covers/progress-three-sentences.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/progress-three-sentences/prompt.md",
-    "sourceUrl": "/downloads/progress-three-sentences/source.md",
     "skillUrl": "/downloads/progress-three-sentences/skill/progress-three-sentences/SKILL.md",
     "bundleUrl": "/downloads/progress-three-sentences/progress-three-sentences-complete.zip"
   },
@@ -373,7 +353,6 @@
     "cover": "/covers/agent-permissions.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/agent-permissions/prompt.md",
-    "sourceUrl": "/downloads/agent-permissions/source.md",
     "skillUrl": "/downloads/agent-permissions/skill/agent-permissions/SKILL.md",
     "bundleUrl": "/downloads/agent-permissions/agent-permissions-complete.zip"
   },
@@ -391,7 +370,6 @@
     "cover": "/covers/video-understanding-test.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/video-understanding-test/prompt.md",
-    "sourceUrl": "/downloads/video-understanding-test/source.md",
     "skillUrl": "/downloads/video-understanding-test/skill/video-understanding-test/SKILL.md",
     "bundleUrl": "/downloads/video-understanding-test/video-understanding-test-complete.zip"
   },
@@ -409,7 +387,6 @@
     "cover": "/covers/coding-agent-steering.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/coding-agent-steering/prompt.md",
-    "sourceUrl": "/downloads/coding-agent-steering/source.md",
     "skillUrl": "/downloads/coding-agent-steering/skill/coding-agent-steering/SKILL.md",
     "bundleUrl": "/downloads/coding-agent-steering/coding-agent-steering-complete.zip"
   },
@@ -427,7 +404,6 @@
     "cover": "/covers/multi-agent-less.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/multi-agent-less/prompt.md",
-    "sourceUrl": "/downloads/multi-agent-less/source.md",
     "skillUrl": "/downloads/multi-agent-less/skill/multi-agent-less/SKILL.md",
     "bundleUrl": "/downloads/multi-agent-less/multi-agent-less-complete.zip"
   },
@@ -445,7 +421,6 @@
     "cover": "/covers/ai-image-check.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/ai-image-check/prompt.md",
-    "sourceUrl": "/downloads/ai-image-check/source.md",
     "skillUrl": "/downloads/ai-image-check/skill/ai-image-check/SKILL.md",
     "bundleUrl": "/downloads/ai-image-check/ai-image-check-complete.zip"
   },
@@ -463,7 +438,6 @@
     "cover": "/covers/ai-research-checker.png",
     "sourceDate": "publish.md",
     "promptUrl": "/downloads/ai-research-checker/prompt.md",
-    "sourceUrl": "/downloads/ai-research-checker/source.md",
     "skillUrl": "/downloads/ai-research-checker/skill/ai-research-checker/SKILL.md",
     "bundleUrl": "/downloads/ai-research-checker/ai-research-checker-complete.zip"
   }

@@ -2,7 +2,6 @@
 
 import {
   ArrowDownToLine,
-  BookOpenText,
   Check,
   ChevronRight,
   Clipboard,
@@ -30,7 +29,6 @@ export type TemplateItem = {
   cover: string | null;
   sourceDate: string;
   promptUrl: string;
-  sourceUrl: string;
   skillUrl: string;
   bundleUrl: string;
 };
@@ -122,7 +120,7 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
             <p className="eyebrow"><Sparkles size={15} /> Peter 的 AI 实用方法</p>
             <h1>把看过的方法，变成能直接运行的工作流</h1>
             <p className="intro-copy">
-              每个主题同时提供可复制 Prompt、可安装 Skill 和原始笔记。AI 负责整理，人负责证据与判断。
+              每个主题同时提供可复制 Prompt 和可安装 Skill。AI 负责整理，人负责证据与判断。
             </p>
           </div>
           <div className="principle-strip" aria-label="模板特点">
@@ -279,13 +277,8 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
                   </a>
                   <a href={selected.bundleUrl} download>
                     <span className="download-icon bundle"><PackageOpen size={19} /></span>
-                    <span><strong>完整下载包</strong><small>Prompt、Skill 与原始笔记</small></span>
+                    <span><strong>完整下载包</strong><small>Prompt 与完整 Skill 目录</small></span>
                     <ArrowDownToLine size={18} />
-                  </a>
-                  <a href={selected.sourceUrl} target="_blank" rel="noreferrer">
-                    <span className="download-icon source"><BookOpenText size={19} /></span>
-                    <span><strong>查看原始笔记</strong><small>了解工作流背后的方法</small></span>
-                    <ChevronRight size={18} />
                   </a>
                 </div>
               </section>

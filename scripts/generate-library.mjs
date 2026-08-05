@@ -365,12 +365,11 @@ for (const draft of works) {
     `default_prompt=Use $${work.slug} to process my material with this workflow.`,
   ]);
   writeFileSync(join(itemRoot, "prompt.md"), promptMarkdown(work, prompt));
-  writeFileSync(join(itemRoot, "source.md"), sourceMarkdown);
   writeFileSync(join(skillRoot, "SKILL.md"), skillMarkdown(work));
   writeFileSync(join(agentsRoot, "openai.yaml"), openaiYaml(work));
 
   const itemZip = join(itemRoot, `${work.slug}-complete.zip`);
-  execFileSync("zip", ["-q", "-r", itemZip, "prompt.md", "source.md", "skill"], { cwd: itemRoot });
+  execFileSync("zip", ["-q", "-r", itemZip, "prompt.md", "skill"], { cwd: itemRoot });
 
   let cover = null;
   if (draft.source.startsWith("assets/")) {
@@ -392,7 +391,6 @@ for (const draft of works) {
     cover,
     sourceDate: basename(work.source).slice(0, 10),
     promptUrl: `/downloads/${work.slug}/prompt.md`,
-    sourceUrl: `/downloads/${work.slug}/source.md`,
     skillUrl: `/downloads/${work.slug}/skill/${work.slug}/SKILL.md`,
     bundleUrl: `/downloads/${work.slug}/${work.slug}-complete.zip`,
   });

@@ -34,11 +34,17 @@ test("ships all generated template downloads", async () => {
   await Promise.all(
     catalog.flatMap((item) => [
       access(new URL(`../public${item.promptUrl}`, import.meta.url)),
-      access(new URL(`../public${item.sourceUrl}`, import.meta.url)),
       access(new URL(`../public${item.skillUrl}`, import.meta.url)),
       access(new URL(`../public${item.bundleUrl}`, import.meta.url)),
     ]),
   );
 
   await access(new URL("../public/ai-workflow-library-all.zip", import.meta.url));
+});
+
+test("does not publish original source notes", async () => {
+  const catalog = JSON.parse(await readFile(new URL("../app/catalog.generated.json", import.meta.url), "utf8"));
+  assert.ok(catalog.every((item) => !("sourceUrl" in item)));
+  const html = await (await render()).text();
+  assert.doesNotMatch(html, /原始笔记|查看原始笔记/);
 });

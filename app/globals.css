@@ -679,7 +679,6 @@ code {
 .download-icon.prompt { color: var(--blue); background: #eaf0ff; }
 .download-icon.skill { color: #7054c8; background: #f0edff; }
 .download-icon.bundle { color: var(--green); background: #e7f5ef; }
-.download-icon.source { color: #a16812; background: #fff3d4; }
 
 .download-list a > span:nth-child(2) {
   min-width: 0;
