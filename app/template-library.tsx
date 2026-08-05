@@ -178,6 +178,7 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
                         alt=""
                         width={210}
                         height={280}
+                        unoptimized
                         loading={index > 7 ? "lazy" : "eager"}
                       />
                     ) : (
