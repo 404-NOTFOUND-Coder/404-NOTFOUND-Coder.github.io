@@ -2,6 +2,7 @@
 
 import {
   ArrowDownToLine,
+  BookOpen,
   Check,
   ChevronRight,
   Clipboard,
@@ -224,6 +225,9 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
         <div className="footer-right">
           <p>模板用于整理与辅助思考，重要结论、引用和外部操作请人工复核。</p>
           <div className="footer-links">
+            <a href="https://www.xiaohongshu.com/user/profile/5fce0771000000000100574e" target="_blank" rel="noreferrer">
+              <BookOpen size={15} /> 小红书主页
+            </a>
             <a href="https://github.com/404-NOTFOUND-Coder" target="_blank" rel="noreferrer">
               <GitFork size={15} /> @404-NOTFOUND-Coder
             </a>

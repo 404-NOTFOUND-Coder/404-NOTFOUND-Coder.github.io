@@ -25,6 +25,7 @@ test("server-renders the workflow library", async () => {
   assert.match(html, /26 个真实工作流/);
   assert.match(html, /30页资料，怎么用 AI 10 分钟整理成汇报/);
   assert.match(html, /src="\/covers\/shorter-prompts\.png"/);
+  assert.match(html, /https:\/\/www\.xiaohongshu\.com\/user\/profile\/5fce0771000000000100574e/);
   assert.doesNotMatch(html, /\/_next\/image\?url=/);
   assert.doesNotMatch(html, /SkeletonPreview|react-loading-skeleton|Your site is taking shape/);
 });
