@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI给的引用，我只信能点开的"
+  short_description: "逐条核验 AI 引用是否真实存在、准确对应并支持当前结论。可直接复用的AI工作流模板。"
+  default_prompt: "Use $citation-verification to process my material with this workflow."

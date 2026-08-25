@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI工具装得越多，我反而越难开始"
+  short_description: "按任务场景、节省时间和迁移成本精简重复的 AI 工具。可直接复用的AI工作流模板。"
+  default_prompt: "Use $ai-tool-pruning to process my material with this workflow."

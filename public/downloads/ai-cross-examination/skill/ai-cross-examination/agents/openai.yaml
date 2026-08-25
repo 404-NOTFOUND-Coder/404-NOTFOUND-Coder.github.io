@@ -1,0 +1,4 @@
+interface:
+  display_name: "同一个问题，我为什么会问两次AI"
+  short_description: "用提出者和审查者两个角色暴露 AI 结论的假设、反例与证据缺口。可直接复用的AI工作流模板。"
+  default_prompt: "Use $ai-cross-examination to process my material with this workflow."

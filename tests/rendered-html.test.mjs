@@ -22,7 +22,7 @@ test("server-renders the workflow library", async () => {
   const html = await response.text();
   assert.match(html, /<title>AI 工作流模板库<\/title>/i);
   assert.match(html, /把看过的方法，变成能直接运行的工作流/);
-  assert.match(html, /26 个真实工作流/);
+  assert.match(html, /35(?:<!-- -->)? 个真实工作流/);
   assert.match(html, /30页资料，怎么用 AI 10 分钟整理成汇报/);
   assert.match(html, /src="\/covers\/shorter-prompts\.png"/);
   assert.match(html, /https:\/\/www\.xiaohongshu\.com\/user\/profile\/5fce0771000000000100574e/);
@@ -33,7 +33,7 @@ test("server-renders the workflow library", async () => {
 
 test("ships all generated template downloads", async () => {
   const catalog = JSON.parse(await readFile(new URL("../app/catalog.generated.json", import.meta.url), "utf8"));
-  assert.equal(catalog.length, 26);
+  assert.equal(catalog.length, 35);
   assert.ok(catalog.every((item) => /^\d{4}-\d{2}-\d{2}$/.test(item.sourceDate)));
 
   await Promise.all(

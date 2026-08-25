@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI改代码前，我先让它写失败清单"
+  short_description: "让 Coding Agent 在改文件前写清预期、现象、复现、影响和验证。可直接复用的AI工作流模板。"
+  default_prompt: "Use $code-failure-checklist to process my material with this workflow."

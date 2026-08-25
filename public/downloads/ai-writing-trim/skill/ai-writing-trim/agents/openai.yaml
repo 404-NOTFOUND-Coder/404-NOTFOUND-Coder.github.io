@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI帮我写完后，我会删掉这3类话"
+  short_description: "删除 AI 初稿中的空开场、无证据的确定语气和硬凑结构。可直接复用的AI工作流模板。"
+  default_prompt: "Use $ai-writing-trim to process my material with this workflow."

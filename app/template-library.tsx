@@ -109,7 +109,7 @@ export function TemplateLibrary({ templates }: { templates: TemplateItem[] }) {
           </span>
         </a>
         <div className="header-actions">
-          <span className="library-count">26 个真实工作流</span>
+          <span className="library-count">{templates.length} 个真实工作流</span>
           <a className="button button-dark" href="/ai-workflow-library-all.zip" download>
             <PackageOpen size={17} />
             下载全部

@@ -1,0 +1,4 @@
+interface:
+  display_name: "开学前，我把研究计划压成了一页"
+  short_description: "把研究计划压缩为当前问题、最小实验、依赖风险和本周证据。可直接复用的AI工作流模板。"
+  default_prompt: "Use $one-page-research-plan to process my material with this workflow."

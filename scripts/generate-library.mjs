@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { copyFileSync, cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, cpSync, existsSync, mkdirSync, readFileSync, rmSync, utimesSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const projectRoot = "/Users/peter/Desktop/研究生/ai agent/ai-workflow-library";
@@ -296,6 +296,105 @@ const works = [
     outputs: ["问题阶段检查", "证据矩阵", "结果反例", "优先修正项"],
     guardrails: ["没找到不等于不存在", "不得替研究者决定问题价值", "最终结论由人负责"],
   },
+  {
+    slug: "citation-verification",
+    source: "assets/2026-08-20_citation_clickable/publish.md",
+    category: "信息判断",
+    description: "逐条核验 AI 引用是否真实存在、准确对应并支持当前结论。",
+    tags: ["引用核验", "论文阅读", "证据"],
+    inputs: ["待核验的结论与引用", "AI 给出的链接或书目信息", "原始任务或研究主题", "需要使用的引用格式"],
+    steps: ["检查链接可访问性并核对题目、作者、年份", "定位原文证据并判断是否支持当前结论", "优先追溯论文、官方报告或一手数据", "按可用、部分支持、冲突、未核验分类"],
+    outputs: ["引用核验表", "可安全使用的引用", "应删除或改写的结论", "仍需人工查找的来源"],
+    guardrails: ["不得生成或补全不存在的引用", "关键词相关不等于原文支持结论", "无法打开或无法定位原文时必须标记未核验"],
+  },
+  {
+    slug: "ai-writing-trim",
+    source: "assets/2026-08-22_delete_ai_filler/publish.md",
+    category: "Prompt方法",
+    description: "删除 AI 初稿中的空开场、无证据的确定语气和硬凑结构。",
+    tags: ["AI写作", "改写", "表达"],
+    inputs: ["AI 生成的初稿", "写作目的与目标读者", "必须保留的事实和观点", "可用的例子、数据或来源"],
+    steps: ["识别并删除不承担信息的空开场", "把无证据的确定表述改成事实或不确定说明", "按真实逻辑重组被硬拆的并列结构", "补回具体对象、动作和可核验细节"],
+    outputs: ["去水分后的正文", "删除与改写记录", "缺少证据的断言清单", "仍需作者补充的具体细节"],
+    guardrails: ["不得为了具体而编造事实和经历", "不得擅自改变作者的核心立场", "没有证据的强结论必须降级或标记待核验"],
+  },
+  {
+    slug: "paragraph-explainer",
+    source: "assets/2026-08-25_explain_one_paragraph/publish.md",
+    category: "科研学习",
+    description: "把论文中看不懂的一段拆成结论、前提、术语和不确定项。",
+    tags: ["论文阅读", "难段解释", "科研"],
+    inputs: ["卡住的论文段落", "段落前后各一至两句", "相关公式、图表或引用", "自己的具体疑问"],
+    steps: ["识别本段试图建立的核心结论", "列出结论依赖的前提和上下文", "结合本段语境解释关键术语、变量和对比对象", "标记无法仅凭当前材料确认的解释", "将解释逐句映射回原文"],
+    outputs: ["一句话段落结论", "前提与术语表", "逐句解释与原文映射", "后续查证问题"],
+    guardrails: ["只解释给定段落和必要上下文", "不得把合理推测写成作者原意", "公式、图表和引用必须回到原文确认"],
+  },
+  {
+    slug: "agent-acceptance-sheet",
+    source: "assets/2026-08-27_agent_acceptance_sheet/publish.md",
+    category: "Agent协作",
+    description: "把 Agent 任务改写成可检查的交付物、通过条件和停止边界。",
+    tags: ["AI Agent", "验收标准", "工作流"],
+    inputs: ["Agent 要完成的目标", "期望交付物与格式", "可用材料和工具", "高风险动作与禁止项"],
+    steps: ["定义最终交付物、文件名、字段和格式", "把完成标准改写成逐项可检查的通过条件", "为结论和修改设置证据或测试入口", "列出缺失材料、登录、外部提交和不可逆操作的停止条件", "明确禁止猜测、越界修改和无关操作"],
+    outputs: ["Agent 验收表", "通过条件清单", "证据与测试要求", "停止条件和禁止项"],
+    guardrails: ["不可使用无法判断是否通过的模糊标准", "高风险和不可逆动作必须先暂停确认", "输入不足时报告缺口而不是自行补全"],
+  },
+  {
+    slug: "ai-cross-examination",
+    source: "assets/2026-08-29_ask_ai_twice/publish.md",
+    category: "信息判断",
+    description: "用提出者和审查者两个角色暴露 AI 结论的假设、反例与证据缺口。",
+    tags: ["交叉质疑", "信息核验", "Prompt"],
+    inputs: ["需要判断的问题", "第一份 AI 回答或初步方案", "可用原始材料", "结论失误的影响"],
+    steps: ["整理第一份回答的结论、依据和不确定项", "以审查者角色寻找隐藏假设、反例和缺失证据", "列出会让结论失效的边界条件", "汇总两次输出的冲突点并指定核验来源"],
+    outputs: ["第一份结论摘要", "反方审查表", "关键冲突与失效条件", "人工核验清单"],
+    guardrails: ["第二次输出不得只重写或赞成第一份答案", "不得按模型数量或语气确定程度投票", "最终判断必须回到原始材料和证据"],
+  },
+  {
+    slug: "one-page-research-plan",
+    source: "assets/2026-09-01_one_page_research_plan/publish.md",
+    category: "科研学习",
+    description: "把研究计划压缩为当前问题、最小实验、依赖风险和本周证据。",
+    tags: ["科研规划", "最小实验", "研究生"],
+    inputs: ["当前研究方向与候选问题", "已有结果和主要卡点", "本周可用时间与资源", "数据、算力、代码和合作依赖"],
+    steps: ["从候选问题中确定一个当前优先问题", "设计一周内可结束且能减少不确定性的最小实验", "列出依赖、风险和卡住时的替代路径", "定义本周可检查的表格、曲线、日志或中间结果"],
+    outputs: ["一页研究计划", "本周最小实验", "风险与替代路径", "可讨论的证据清单"],
+    guardrails: ["一次只保留一个当前优先问题", "不得把学习和忙碌直接写成研究进展", "AI 只能协助压缩与检查，研究价值和方法由研究者判断"],
+  },
+  {
+    slug: "video-timestamp-evidence",
+    source: "assets/2026-09-03_video_timestamp_evidence/publish.md",
+    category: "科研学习",
+    description: "让 AI 用开始时间、结束时间、事件和画面证据定位视频片段。",
+    tags: ["视频理解", "时间戳", "多模态"],
+    inputs: ["视频或可访问的视频文件", "需要寻找的事件或状态变化", "带时间戳字幕或转写（如有）", "允许的时间误差"],
+    steps: ["定位候选事件的开始与结束时间", "区分画面动作、字幕内容和模型推断", "描述支撑结论的人物、物体与状态变化", "对不确定结果给出候选区间和原因", "输出便于剪辑和复核的时间索引"],
+    outputs: ["视频片段时间表", "事件与画面证据", "候选时间段", "不确定项和复核建议"],
+    guardrails: ["不得用模糊的前段、中间或后段代替时间点", "看不到的事件不得根据字幕自行补全", "不确定时不得编造精确时间"],
+  },
+  {
+    slug: "ai-tool-pruning",
+    source: "assets/2026-09-05_fewer_ai_tools/publish.md",
+    category: "自我管理",
+    description: "按任务场景、节省时间和迁移成本精简重复的 AI 工具。",
+    tags: ["AI工具", "数字极简", "效率"],
+    inputs: ["当前 AI 工具清单", "每个工具的主要使用场景", "过去数周的实际使用频率", "账号、资料和学习迁移成本"],
+    steps: ["按通用对话、检索和执行等场景归类", "为每类确定一个默认主力工具", "检查新工具是否明确替代现有场景并持续节省时间", "把未验证工具放入限时试用区", "输出保留、试用、归档和删除建议"],
+    outputs: ["AI 工具精简表", "每类默认工具", "新工具试用规则", "迁移与清理清单"],
+    guardrails: ["不得仅凭功能列表判断效率", "删除前检查数据导出、订阅和账号依赖", "涉及隐私与权限的工具需单独评估风险"],
+  },
+  {
+    slug: "code-failure-checklist",
+    source: "assets/2026-09-08_code_failure_checklist/publish.md",
+    category: "Agent协作",
+    description: "让 Coding Agent 在改文件前写清预期、现象、复现、影响和验证。",
+    tags: ["AI编程", "Debug", "Coding Agent"],
+    inputs: ["预期行为与实际现象", "错误日志和运行环境", "稳定复现步骤（如有）", "相关代码、测试和修改限制"],
+    steps: ["分开描述预期结果与实际现象", "整理最小且可重复的复现步骤", "区分已观察证据和仍待验证的原因假设", "限定可能受影响的文件与测试", "在修改前提出最小修复方案和验证方式"],
+    outputs: ["失败清单", "证据与假设表", "最小修改方案", "针对性测试和回归检查"],
+    guardrails: ["失败尚未定位时不得批量修改文件", "无法复现时先补日志和诊断", "修改必须经测试证明有效且未引入回归"],
+  },
 ];
 
 function readTitle(markdown) {
@@ -352,6 +451,8 @@ for (const draft of works) {
   const sourceMarkdown = readFileSync(sourcePath, "utf8");
   const title = readTitle(sourceMarkdown);
   const work = { ...draft, title };
+  const sourceDate = readSourceDate(work.source);
+  const archiveTimestamp = new Date(`${sourceDate}T00:00:00Z`);
   const prompt = promptText(work);
   const itemRoot = join(downloadsRoot, work.slug);
   const skillRoot = join(itemRoot, "skill", work.slug);
@@ -374,8 +475,17 @@ for (const draft of works) {
   writeFileSync(join(skillRoot, "SKILL.md"), skillMarkdown(work));
   writeFileSync(join(agentsRoot, "openai.yaml"), openaiYaml(work));
 
+  for (const generatedFile of [
+    join(itemRoot, "prompt.md"),
+    join(skillRoot, "SKILL.md"),
+    join(agentsRoot, "openai.yaml"),
+  ]) {
+    utimesSync(generatedFile, archiveTimestamp, archiveTimestamp);
+  }
+
   const itemZip = join(itemRoot, `${work.slug}-complete.zip`);
-  execFileSync("zip", ["-q", "-r", itemZip, "prompt.md", "skill"], { cwd: itemRoot });
+  execFileSync("zip", ["-q", "-X", "-D", "-r", itemZip, "prompt.md", "skill"], { cwd: itemRoot });
+  utimesSync(itemZip, archiveTimestamp, archiveTimestamp);
 
   let cover = null;
   if (draft.source.startsWith("assets/")) {
@@ -395,7 +505,7 @@ for (const draft of works) {
     tags: work.tags,
     prompt,
     cover,
-    sourceDate: readSourceDate(work.source),
+    sourceDate,
     promptUrl: `/downloads/${work.slug}/prompt.md`,
     skillUrl: `/downloads/${work.slug}/skill/${work.slug}/SKILL.md`,
     bundleUrl: `/downloads/${work.slug}/${work.slug}-complete.zip`,
@@ -408,12 +518,12 @@ const allRoot = join(projectRoot, "public", "all-templates");
 rmSync(allRoot, { recursive: true, force: true });
 ensureDir(allRoot);
 for (const work of catalog) {
-  cpSync(join(downloadsRoot, work.slug), join(allRoot, work.slug), { recursive: true });
+  cpSync(join(downloadsRoot, work.slug), join(allRoot, work.slug), { recursive: true, preserveTimestamps: true });
 }
 
 const allZip = join(projectRoot, "public", "ai-workflow-library-all.zip");
 rmSync(allZip, { force: true });
-execFileSync("zip", ["-q", "-r", allZip, "all-templates"], { cwd: join(projectRoot, "public") });
+execFileSync("zip", ["-q", "-X", "-D", "-r", allZip, "all-templates"], { cwd: join(projectRoot, "public") });
 rmSync(allRoot, { recursive: true, force: true });
 
 console.log(`Generated ${catalog.length} workflow templates.`);

@@ -1,0 +1,4 @@
+interface:
+  display_name: "让AI找视频片段，我只看它能不能报时间点"
+  short_description: "让 AI 用开始时间、结束时间、事件和画面证据定位视频片段。可直接复用的AI工作流模板。"
+  default_prompt: "Use $video-timestamp-evidence to process my material with this workflow."

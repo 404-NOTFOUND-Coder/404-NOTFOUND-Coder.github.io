@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import catalog from "./catalog.generated.json";
 import "./globals.css";
+
+const templateCount = catalog.length;
 
 export const metadata: Metadata = {
   title: {
@@ -9,13 +12,13 @@ export const metadata: Metadata = {
   description: "来自真实创作的 AI Prompt 与 Skill 工作流，支持在线复制和免费下载。",
   openGraph: {
     title: "AI 工作流模板库",
-    description: "26 个来自真实创作的 Prompt 与 Skill，在线复制，免费下载。",
+    description: `${templateCount} 个来自真实创作的 Prompt 与 Skill，在线复制，免费下载。`,
     images: [{ url: "/social-preview.png", width: 1200, height: 630, alt: "AI 工作流模板库" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "AI 工作流模板库",
-    description: "26 个来自真实创作的 Prompt 与 Skill，在线复制，免费下载。",
+    description: `${templateCount} 个来自真实创作的 Prompt 与 Skill，在线复制，免费下载。`,
     images: ["/social-preview.png"],
   },
   icons: {

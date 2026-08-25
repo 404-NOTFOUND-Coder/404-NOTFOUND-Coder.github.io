@@ -1,0 +1,4 @@
+interface:
+  display_name: "读论文卡住时，我只让AI解释这一段"
+  short_description: "把论文中看不懂的一段拆成结论、前提、术语和不确定项。可直接复用的AI工作流模板。"
+  default_prompt: "Use $paragraph-explainer to process my material with this workflow."
